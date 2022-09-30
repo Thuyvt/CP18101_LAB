@@ -41,4 +41,11 @@ public class NDService {
         listNguoiDung.add(item);
     }
     
+    public void updateNguoiDung(NguoiDung item, int index) {
+        listNguoiDung.set(index, item);
+    }
+    
+    public void deleteNguoiDung(int index) {
+        listNguoiDung.remove(index);
+    }
 }
